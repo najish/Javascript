@@ -28,6 +28,7 @@
     <div>
         <button id="btn">change color</button>
         <button id="random">Random Number</button>
+        <button id="multiple">Multiple Listeners</button>
     </div>
 
     <script>
@@ -47,6 +48,19 @@
         random.addEventListener('click',function () {
             console.log(Math.floor(Math.random() * 1000) % 255);
         });
+
+        
+
+        const b = () => {
+            console.log('this is function B');
+        }
+        const a = () => {
+            console.log('this is function A');
+        }
+
+        let multiple = document.getElementById("multiple");
+        multiple.addEventListener('click',b);
+        multiple.addEventListener('click',a);
     </script>
 </body>
 </html>
