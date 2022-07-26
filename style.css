@@ -69,6 +69,31 @@ header > div:nth-child(2) {
    margin-left:10px;
    margin-right:10px;
 }
+
+.heading-action > .spotlight-hover {
+   display: none;
+   position: absolute;
+   background-color: lightblue;
+   top:8%;
+   left:9%;
+   width:60%;
+   height:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for body will apply from here  */
 .container {
    display:flex;
 }

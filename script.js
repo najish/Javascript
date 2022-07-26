@@ -1,16 +1,20 @@
 console.log('script is running');
 
-var tutorial = document.querySelector('.tutorial');
-var magic = document.querySelector('.magic');
-var profile = document.querySelector('.profile');
-tutorial.addEventListener('mouseover',() => {
-    mouseOver(magic);
+var headingActions = document.querySelectorAll('.heading-action > div');
+var spotlight = document.querySelector('.spotlight-hover');
+
+
+
+headingActions.forEach(x =>  {
+    x.addEventListener('mouseover', function() {
+        spotlight.setAttribute('style','display:block');
+    });
+    x.addEventListener('mouseout',function() {
+        spotlight.setAttribute('style','display:none');
+    });
 });
 
 
-tutorial.addEventListener('mouseout',() => {
-   mouseOut(magic);
-});
 
 
 
