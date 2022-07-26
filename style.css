@@ -123,13 +123,40 @@ header > div:nth-child(2) {
    height:50%;
 }
 
+.identity {
+   display: flex;
+}
+
+.identity > div {
+   padding:10px 20px;
+   border-radius: 5px;
+   margin:0 10px;
+}
 
 
 
+.login {
+   background-color: rgb(193, 220, 244);
+}
+.signUp {
+   background-color:  blue;
+}
+
+.signUp:hover {
+   background-color: rgb(15, 15, 156);
+}
 
 
 
+.signUp > a {
+   color:white;
+   font-weight: bold;
+}
 
+.login > a {
+   color:black;
+   font-weight: bold;
+}
 
 
 
@@ -172,5 +199,6 @@ footer {
 footer > div > div {
    margin-top:20px;
 }
+
 
 
