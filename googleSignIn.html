@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="304413053018-flr3bq7vojljik9kghf4vo5neaev5m5s.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <title>Google Signin</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Try signin using google</h1>
+    <button id="google">SignIn Google</button>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <script>
+        var google = document.getElementById("google");
+        google.addEventListener("click",() => {
+            console.log("button is clicked");
+        });
+    </script>
+</body>
+</html>

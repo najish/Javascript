@@ -1,0 +1,113 @@
+* {
+   padding:0;
+   margin:0;
+}
+body {
+   font-family: 'Poppins', sans-serif;
+}
+a {
+   text-decoration: none;
+}
+
+
+a:hover {
+   text-decoration: underline;
+}
+
+#logo {
+   position: relative;
+   height:30px;
+   width: 60px;
+}
+header {
+   background-color: RGB(255, 255, 255);
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   height:60px;
+}
+
+header:first-child {
+   padding-left:35px;
+}
+
+header:last-child {
+   padding-right:35px;
+}
+header > div {
+   display: flex;
+}
+
+
+.heading-action {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.heading-action > div {
+   padding-left:20px;
+   padding-right:20px;
+   height:100%;
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+
+.heading-action>div:hover{
+   background-color: RGB(225, 219, 219);
+}
+
+
+.heading-action > div {
+   display: flex;
+   align-items: center;
+}
+
+header > div > div {
+   margin-left:10px;
+   margin-right:10px;
+}
+
+header > div:nth-child(2) {
+   margin-left:10px;
+   margin-right:10px;
+}
+.container {
+   display:flex;
+}
+
+.sidebar {
+   width:20%;
+}
+
+.sidebar > * {
+   padding:10px;
+}
+
+.content {
+   width:80%;
+   padding:10px;
+}
+
+.content {
+   
+}
+
+.magic {
+   display:none;
+   position:absolute;
+   top:35px;
+}
+
+footer {
+   display:flex;
+   justify-content: space-evenly;
+   background-color: antiquewhite;
+}
+
+footer > div > div {
+   margin-top:20px;
+}
+
+
